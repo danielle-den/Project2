@@ -19,7 +19,3 @@ To fix this, the compilation command was changed to
 ```g++ -pthread -Wall -Wextra -g matrix.cpp```. 
 
 In order to run the program, the command that is used is ```./a.out```.
-
-|Native Float|Native Fixed|
-|------------|------------|
-|   16717    |            |
