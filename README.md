@@ -10,3 +10,8 @@ can use worse case vaolues as the defaulted values to test the performance.
 After creating the matrices, including the results matrix, the program asks the user for which of the 3 tests they want to
 test. 3 separate functions were made for each test. For the cache access test, we chose to use the Blocking algorithm. This is
 where the multiplications are performed in blocks of the matrices, reducing cache misses. 
+
+To compile the program, the command that must be used when g++ is being utilized is, "g++ -Wall -Wextra -g matrix.cpp". 
+Due to platform issues however, our device would fail compilation with the error, "undefined reference to 'pthread_create'".
+To fix this, the compilation command was changed to "g++ -pthread -Wall -Wextra -g matrix.cpp". Afterwards, "./a.out" was used
+to run the program.
